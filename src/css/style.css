@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-size: 300%;
+}
+
+.buttons {
+    min-width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 2%;
+}
+
+.buttons button {
+    padding: 10px 20px;
+    color: #fff;
+}
+
+#increment {
+    background-color: green;
+}
+
+#decrement {
+    background-color: red;
+}
